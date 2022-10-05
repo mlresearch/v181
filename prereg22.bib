@@ -1,0 +1,45 @@
+@proceedings{Prereg2022,
+	year         = 2022,
+	booktitle    = {NeurIPS 2021 Workshop on Pre-registration in Machine Learning},
+	address      = {Virtual},
+	volume       = 181,
+	name         = {NeurIPS 2021 Workshop on Pre-registration in Machine Learning},
+	shortname    = {Prereg},
+	editor       = {Albanie, Samuel and Henriques, Jo\~{a}o F. and Bertinetto, Luca and Hern{\'a}ndez-Garc{\'\i}a, Alex and Doughty, Hazel and Varol, G\"{u}l},
+	start        = {2021-12-13},
+	end          = {2021-12-13},
+	published = {2022-10-05},
+	conference_url = {https://preregister.science}
+}
+@inproceedings{albanie22a,
+	title        = {Preface},
+	author       = {Albanie, Samuel and Henriques, Jo\~{a}o F. and Bertinetto, Luca and Hern{\'a}ndez-Garc{\'\i}a, Alex and Doughty, Hazel and Varol, G\"{u}l},
+	year         = 2022,
+	month        = {13 Dec},
+	booktitle    = {NeurIPS 2021 Workshop on Pre-registration in Machine Learning},
+	publisher    = {PMLR},
+	series       = {Proceedings of Machine Learning Research},
+	volume       = 181,
+	pages        = {i--i},
+	url          = {https://proceedings.mlr.press/v181/albanie22a.html},
+	editor       = {Albanie, Samuel and Henriques, Jo\~{a}o F. and Bertinetto, Luca and Hern{\'a}ndez-Garc{\'\i}a, Alex and Doughty, Hazel and Varol, G\"{u}l},
+	pdf          = {http://proceedings.mlr.press/v181/albanie22a/albanie22a.pdf}
+}
+@inproceedings{lang22,
+	title        = {Elevating Perceptual Sample Quality in PCs through Differentiable Sampling},
+	author       = {Lang, Steven and Mundt, Martin and Ventola, Fabrizio and Peharz, Robert and Kersting, Kristian},
+	pages        = {1--25},
+	abstract     = {Deep generative models have seen a dramatic improvement in recent years, due to the use of alternative losses based on perceptual assessment of generated samples. This improvement has not yet been applied to the model class of probabilistic circuits (PCs), presumably due to significant technical challenges concerning differentiable sampling, which is a key requirement for optimizing perceptual losses. This is unfortunate, since PCs allow a much wider range of probabilistic inference routines than main-stream generative models, such as exact and efficient marginalization and conditioning. Motivated by the success of loss reframing in deep generative models, we incorporate perceptual metrics into the PC learning objective. To this aim, we introduce a differentiable sampling procedure for PCs, where the central challenge is the non-differentiability of sampling from the categorical distribution over latent PC variables. We take advantage of the Gumbel-Softmax trick and develop a novel inference pass to smoothly interpolate child samples as a strategy to circumvent non-differentiability of sum node sampling. We initially hypothesized, that perceptual losses, unlocked by our novel differentiable sampling procedure, will elevate the generative power of PCs and improve their sample quality to be on par with neural counterparts like probabilistic auto-encoders and generative adversarial networks. Although our experimental findings empirically reject this hypothesis for now, the results demonstrate that samples drawn from PCs optimized with perceptual losses can have similar sample quality compared to likelihood-based optimized PCs and, at the same time, can express richer contrast, colors, and details. Whereas before, PCs were restricted to likelihood-based optimization, this work has paved the way to advance PCs with loss formulations that have been built around deep neural networks in recent years.}
+}
+@inproceedings{thodoroff22,
+	title        = {Benchmarking Real-Time Reinforcement Learning},
+	author       = {Thodoroff, Pierre and Li, Wenyu and Lawrence, Neil D.},
+	pages        = {26--41},
+	abstract     = {Decision-making algorithms can require fast response time in applications as diverse as self-driving cars and minimizing load times of webpages. Yet, modern algorithms (deep reinforcement learning) are usually developed in  scenarios where inference and training computational costs are ignored. This proposal aims to study reinforcement learning and control algorithms for real-time continuous control. In this scenario, the environment continuously evolves  while actions are being computed by the agent (either in training or inference).  The first goal is to provide a clear picture of the performance of modern algorithms modulated by their computational costs. The second goal is to identify the major challenges that arise when considering real-time environments to guide further research.}
+}
+@inproceedings{narayanan22,
+	title        = {On Challenges in Unsupervised Domain Generalization},
+	author       = {Narayanan, Vaasudev and Deshmukh, Aniket Anand and Dogan, Urun and Balasubramanian, Vineeth N.},
+	pages        = {42--58},
+	abstract     = {Domain Generalization (DG) aims to learn a model from a labeled set of source domains which can generalize to an unseen target domain. Although an important stepping stone towards building general purpose models, the reliance of DG on labeled source data is a problem if we are to deploy scalable ML algorithms in the wild. We thus propose to study a novel and more challenging setting which shares the same goals as that of DG, but without source labels. We name this setting as Unsupervised Domain Generalization (UDG), where the objective is to learn a model from an unlabeled set of source domains that can semantically cluster images in an unseen target domain. We investigate the challenges involved in solving UDG as well as potential methods to address the same. Our experiments indicate that learning a generalizable feature representation using self-supervision is a strong baseline for UDG, even outperforming sophisticated methods explicitly designed to address domain shift and clustering.}
+}
